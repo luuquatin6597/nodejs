@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "name": "Nike",
+      "description": "A leading sportswear brand known for innovation and performance.",
+      "logo": "https://example.com/images/nike-logo.png",
+      "website": "https://www.nike.com"
+    },
+    {
+      "id": "2",
+      "name": "Adidas",
+      "description": "A global brand designing high-quality sports apparel and footwear.",
+      "logo": "https://example.com/images/adidas-logo.png",
+      "website": "https://www.adidas.com"
+    },
+    {
+      "id": "3",
+      "name": "Puma",
+      "description": "An iconic brand offering stylish and comfortable sportswear.",
+      "logo": "https://example.com/images/puma-logo.png",
+      "website": "https://www.puma.com"
+    },
+    {
+      "id": "4",
+      "name": "Levi's",
+      "description": "The original denim brand, setting fashion trends since 1853.",
+      "logo": "https://example.com/images/levis-logo.png",
+      "website": "https://www.levi.com"
+    },
+    {
+      "id": "5",
+      "name": "Zara",
+      "description": "A fast-fashion brand with stylish and affordable clothing.",
+      "logo": "https://example.com/images/zara-logo.png",
+      "website": "https://www.zara.com"
+    }
+  ]
+  

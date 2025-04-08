@@ -1,0 +1,255 @@
+[
+    {
+      "id": "1",
+      "name": "Túi trống thể thao unisex Fit Duffel",
+      "brandId": "3",
+      "description": "Mang trong mình sự kết hợp tinh tế giữa thiết kế năng động và phong cách cá tính, túi trống thể thao Fit Duffel là người bạn đồng hành hoàn hảo cho những người yêu thể thao và cuộc sống năng động. Cộng thêm kiểu dáng túi xách thể thao đặc trưng, Fit Duffel không chỉ thể hiện cá tính mạnh mẽ mà còn đảm bảo sự tiện dụng tối đa cho người sử dụng.",
+      "images": [
+        "https://bizweb.dktcdn.net/100/494/200/products/1-bea9ec0d-800a-42ee-96b8-da5d57291da7.jpg?v=1695376331970",
+        "https://bizweb.dktcdn.net/100/494/200/products/2-a051606f-daf2-4fbc-a512-0e64b225a25f.jpg?v=1695376332667",
+        "https://bizweb.dktcdn.net/100/494/200/products/3-b8f4ad3d-77ee-45ef-8340-da3311e72b97.jpg?v=1695376333187",
+        "https://bizweb.dktcdn.net/100/494/200/products/4-dea88fe5-4116-4b48-b91a-fbbe2c743ace.jpg?v=1695376334293"
+      ],
+      "type": "Bags",
+      "gender": "Unisex",
+      "variant": [
+        {
+          "name": "Size",
+          "options": [
+            { "name": "Large" },
+            { "name": "Medium" },
+            { "name": "Small" }
+          ]
+        }
+      ],
+      "combinations": [
+        { 
+          "size": "Large", 
+          "price": "1700000", 
+          "comparePrice": "2100000", 
+          "quantity": 50, 
+          "sku": "TD-L" 
+        },
+        { 
+          "size": "Medium", 
+            "price": "1500000",
+            "comparePrice": "2000000",
+          "quantity": 40, 
+          "sku": "TD-M" 
+        },
+        { 
+          "size": "Small", 
+          "price": "1300000", 
+          "comparePrice": "1800000", 
+          "quantity": 30, 
+          "sku": "TD-S" 
+        }
+      ]
+    },
+    {
+        "id": "2",
+        "name": "Nike Dunk High Up",
+        "brandId": "1",
+        "description": "Giày Nike Dunk High Up là sản phẩm mới nhất thuộc dòng sản phẩm Nike Skateboarding (SB) Dunk của thương hiệu Nike. Đây là một phiên bản đặc biệt được thiết kế để vinh danh loài gấu trúc yêu thích của Trung Quốc.",
+        "images": [
+            "https://bizweb.dktcdn.net/100/494/200/products/1.jpg?v=1695285903890",
+            "https://bizweb.dktcdn.net/100/494/200/products/2.jpg?v=1695285904560",
+            "https://bizweb.dktcdn.net/100/494/200/products/3.jpg?v=1695285905150",
+            "https://bizweb.dktcdn.net/100/494/200/products/4.jpg?v=1695285905880",
+            "https://bizweb.dktcdn.net/100/494/200/products/5-0a14e9f2-d423-4d74-98fd-a22b3f5bbaa3.jpg?v=1695285906577"
+        ],
+        "type": "Shoes",
+        "gender": "Unisex",
+        "variant": [
+            {
+                "name": "Color",
+                "options": [
+                    {
+                        "name": "Red",
+                        "image": "https://bizweb.dktcdn.net/100/494/200/products/1.jpg?v=1695285903890"
+                    },
+                    {
+                        "name": "Brown",
+                        "image": "https://bizweb.dktcdn.net/100/494/200/products/2.jpg?v=1695285904560"
+                    },
+                    {
+                        "name": "Black",
+                        "image": "https://bizweb.dktcdn.net/100/494/200/products/3.jpg?v=1695285905150"
+                    }
+                ]
+            },
+            {
+                "name": "Size",
+                "options": [
+                    { "name": "35" },
+                    { "name": "36" },
+                    { "name": "37" },
+                    { "name": "38" },
+                    { "name": "39" },
+                    { "name": "40" },
+                    { "name": "41" },
+                    { "name": "42" }
+                ]
+            }
+        ],
+        "combinations": [
+            { "color": "Red", "size": "35", "price": "3890000", "comparePrice": "4100000", "quantity": 5, "sku": "R-35" },
+            { "color": "Red", "size": "36", "price": "3890000", "comparePrice": "4100000", "quantity": 8, "sku": "R-36" },
+            { "color": "Red", "size": "37", "price": "3890000", "comparePrice": "4100000", "quantity": 0, "sku": "R-37" },
+            { "color": "Red", "size": "38", "price": "3890000", "comparePrice": "4100000", "quantity": 10, "sku": "R-38" },
+            { "color": "Red", "size": "39", "price": "3890000", "comparePrice": "4100000", "quantity": 7, "sku": "R-39" },
+            { "color": "Red", "size": "40", "price": "3950000", "comparePrice": "4200000", "quantity": 4, "sku": "R-40" },
+            { "color": "Red", "size": "41", "price": "3950000", "comparePrice": "4200000", "quantity": 0, "sku": "R-41" },
+            { "color": "Red", "size": "42", "price": "3950000", "comparePrice": "4200000", "quantity": 3, "sku": "R-42" },
+            
+            { "color": "Brown", "size": "35", "price": "3950000", "comparePrice": "4200000", "quantity": 2, "sku": "B-35" },
+            { "color": "Brown", "size": "36", "price": "3950000", "comparePrice": "4200000", "quantity": 0, "sku": "B-36" },
+            { "color": "Brown", "size": "37", "price": "3950000", "comparePrice": "4200000", "quantity": 6, "sku": "B-37" },
+            { "color": "Brown", "size": "38", "price": "3950000", "comparePrice": "4200000", "quantity": 9, "sku": "B-38" },
+            { "color": "Brown", "size": "39", "price": "3950000", "comparePrice": "4200000", "quantity": 0, "sku": "B-39" },
+            { "color": "Brown", "size": "40", "price": "4050000", "comparePrice": "4300000", "quantity": 7, "sku": "B-40" },
+            { "color": "Brown", "size": "41", "price": "4050000", "comparePrice": "4300000", "quantity": 5, "sku": "B-41" },
+            { "color": "Brown", "size": "42", "price": "4050000", "comparePrice": "4300000", "quantity": 0, "sku": "B-42" },
+            
+            { "color": "Black", "size": "35", "price": "4050000", "comparePrice": "4300000", "quantity": 0, "sku": "BL-35" },
+            { "color": "Black", "size": "36", "price": "4050000", "comparePrice": "4300000", "quantity": 4, "sku": "BL-36" },
+            { "color": "Black", "size": "37", "price": "4050000", "comparePrice": "4300000", "quantity": 8, "sku": "BL-37" },
+            { "color": "Black", "size": "38", "price": "4050000", "comparePrice": "4300000", "quantity": 0, "sku": "BL-38" },
+            { "color": "Black", "size": "39", "price": "4050000", "comparePrice": "4300000", "quantity": 10, "sku": "BL-39" },
+            { "color": "Black", "size": "40", "price": "4150000", "comparePrice": "4400000", "quantity": 6, "sku": "BL-40" },
+            { "color": "Black", "size": "41", "price": "4150000", "comparePrice": "4400000", "quantity": 3, "sku": "BL-41" },
+            { "color": "Black", "size": "42", "price": "4150000", "comparePrice": "4400000", "quantity": 1, "sku": "BL-42" }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Nike Lunaracer 4",
+        "brandId": "1",
+        "description": "Lunaracer sẽ kỷ niệm sinh nhật lần thứ 9 của mình trong năm nay và điều đó thật đáng chú ý vì hai lý do. Lunaracer là một ngoại lệ trong danh mục của nó; trọng lượng 6 ounce của nó vượt xa tiêu chuẩn của ngành, tuy nhiên nó có tất cả các lớp đệm của mức trung bình 11 Oz. huấn luyện viên.",
+        "images": [
+            "https://bizweb.dktcdn.net/100/494/200/products/lunaracer-00.png?v=1696235403347",
+            "https://bizweb.dktcdn.net/100/494/200/products/lunaracer-2-2c1570e7-1c87-419b-b165-61b33bb55919.jpg?v=1696235607557",
+            "https://bizweb.dktcdn.net/100/494/200/products/lunaracer-3-49268938-bea8-41bf-bdda-04155acfe1ee.jpg?v=1696235647543",
+            "https://bizweb.dktcdn.net/100/494/200/products/lunaracer-4-f4f2d4a4-3a8a-4d64-856f-8355f6e6a09b.jpg?v=1696235649540"
+        ],
+        "type": "Shoes",
+        "gender": "Unisex",
+        "variant": [
+            {
+                "name": "Size",
+                "options": [
+                    { "name": "35" },
+                    { "name": "36" },
+                    { "name": "37" },
+                    { "name": "38" },
+                    { "name": "39" },
+                    { "name": "40" },
+                    { "name": "41" },
+                    { "name": "42" }
+                ]
+            }
+        ],
+        "combinations": [
+            { "size": "35", "price": "3890000", "comparePrice": "4100000", "quantity": 5, "sku": "L-35" },
+            { "size": "36", "price": "3890000", "comparePrice": "4100000", "quantity": 8, "sku": "L-36" },
+            { "size": "37", "price": "3890000", "comparePrice": "4100000", "quantity": 0, "sku": "L-37" },
+            { "size": "38", "price": "3890000", "comparePrice": "4100000", "quantity": 10, "sku": "L-38" },
+            { "size": "39", "price": "3890000", "comparePrice": "4100000", "quantity": 7, "sku": "L-39" },
+            { "size": "40", "price": "3950000", "comparePrice": "4200000", "quantity": 4, "sku": "L-40" },
+            { "size": "41", "price": "3950000", "comparePrice": "4200000", "quantity": 0, "sku": "L-41" },
+            { "size": "42", "price": "3950000", "comparePrice": "4200000", "quantity": 3, "sku": "L-42" }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Nike Air Max 90 Futura",
+        "brandId": "1",
+        "description": "Giày cổ thấp",
+        "images": [
+            "https://bizweb.dktcdn.net/100/494/200/products/1-45775ce5-259d-401b-a0d3-3238569dcc41.jpg?v=1695287016263",
+            "https://bizweb.dktcdn.net/100/494/200/products/2-9ac229b1-4bcd-4475-b545-89c068e88e15.jpg?v=1695287017523",
+            "https://bizweb.dktcdn.net/100/494/200/products/3-974649b9-df95-4e52-bf24-df5993aa7cd0.jpg?v=1695287018497",
+            "https://bizweb.dktcdn.net/100/494/200/products/4-6c63791d-bee7-43c7-93a7-76abd9c43c74.jpg?v=1695287019710",
+            "https://bizweb.dktcdn.net/100/494/200/products/5-1c76be3f-de68-4628-b6a9-9efe5e6ee1ea.jpg?v=1695287020687",
+            "https://bizweb.dktcdn.net/100/494/200/products/6.jpg?v=1695287021547",
+            "https://bizweb.dktcdn.net/100/494/200/products/7.jpg?v=1695287023217",
+            "https://bizweb.dktcdn.net/100/494/200/products/8.jpg?v=1695287024603"
+        ],
+        "type": "Shoes",
+        "gender": "Unisex",
+        "variant": [
+            {
+                "name": "Size",
+                "options": [
+                    { "name": "35" },
+                    { "name": "36" },
+                    { "name": "37" },
+                    { "name": "38" },
+                    { "name": "39" },
+                    { "name": "40" },
+                    { "name": "41" },
+                    { "name": "42" }
+                ]
+            }
+        ],
+        "combinations": [
+            { "size": "35", "price": "3890000", "comparePrice": "4100000", "quantity": 5, "sku": "L-35" },
+            { "size": "36", "price": "3890000", "comparePrice": "4100000", "quantity": 8, "sku": "L-36" },
+            { "size": "37", "price": "3890000", "comparePrice": "4100000", "quantity": 0, "sku": "L-37" },
+            { "size": "38", "price": "3890000", "comparePrice": "4100000", "quantity": 10, "sku": "L-38" },
+            { "size": "39", "price": "3890000", "comparePrice": "4100000", "quantity": 7, "sku": "L-39" },
+            { "size": "40", "price": "3950000", "comparePrice": "4200000", "quantity": 4, "sku": "L-40" },
+            { "size": "41", "price": "3950000", "comparePrice": "4200000", "quantity": 0, "sku": "L-41" },
+            { "size": "42", "price": "3950000", "comparePrice": "4200000", "quantity": 3, "sku": "L-42" }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Set 2 băng đeo tay thể thao unisex Training",
+        "brandId": "1",
+        "description": "Đi tập gym hay đi dạo phố mà không có phụ kiện băng đeo tay Training thì quả là một sự thiếu sót đáng tiếc! Với màu sắc trẻ trung đầy cá tính, đây sẽ là món phụ kiện không thể thiếu đối với những chàng trai, cô giá nhà Descente.",
+        "images": [
+            "https://bizweb.dktcdn.net/100/494/200/products/1-8f6b47b6-9ebf-44c8-b2af-9622cd157e76.jpg?v=1695375957830",
+            "https://bizweb.dktcdn.net/100/494/200/products/2-ce8e8a1a-fdfb-4163-a602-c20fe83c0b8f.jpg?v=1695375958453",
+            "https://bizweb.dktcdn.net/100/494/200/products/3-7f8dcda9-9626-4ed7-96d8-2171847cd492.jpg?v=1695375959413",
+            "https://bizweb.dktcdn.net/100/494/200/products/4-7b7c9224-b82f-477b-8c51-ae2411178503.jpg?v=1695375960577",
+            "https://bizweb.dktcdn.net/100/494/200/products/5-b872d2cf-ad6c-4174-a4fb-7903e484593e.jpg?v=1695375961297",
+            "https://bizweb.dktcdn.net/100/494/200/products/6-80e2ef76-db27-4f6b-b01b-8d31cceb9de7.jpg?v=1695375961810",
+            "https://bizweb.dktcdn.net/100/494/200/products/7-fe5a0ddd-110d-43bf-9843-a3978b8b607a.jpg?v=1695375962397",
+            "https://bizweb.dktcdn.net/100/494/200/products/8-ae23f858-f223-4f69-aa38-839109af810a.jpg?v=1695375963140"
+        ],
+        "type": "Accessories",
+        "gender": "Unisex",
+        "variant": [
+            {
+                "name": "Color",
+                "options": [
+                    { "name": "Green", "image": "https://bizweb.dktcdn.net/100/494/200/products/1-8f6b47b6-9ebf-44c8-b2af-9622cd157e76.jpg?v=1695375957830" },
+                    { "name": "Black", "image": "https://bizweb.dktcdn.net/100/494/200/products/6-80e2ef76-db27-4f6b-b01b-8d31cceb9de7.jpg?v=1695375961810" }
+                ]
+            }
+        ],
+        "combinations": [
+            { "color": "Green", "price": "3890000", "comparePrice": "4100000", "quantity": 5, "sku": "G-35" },
+            { "color": "Black", "price": "3890000", "comparePrice": "4100000", "quantity": 8, "sku": "B-36" }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Bình nước thể thao Shaker",
+        "brandId": "1",
+        "description": "Kiểu dáng nhỏ gọn, trọng lượng nhẹ",
+        "images": [
+            "https://bizweb.dktcdn.net/100/494/200/products/1-8795a142-16e0-4051-bde3-05f0fc1f7595.jpg?v=1695374784363",
+            "https://bizweb.dktcdn.net/100/494/200/products/2-dbd89ccd-50c1-4d18-9cfb-b672d06c1d9b.jpg?v=1695374785097",
+            "https://bizweb.dktcdn.net/100/494/200/products/3-449f90b6-532e-45d1-9c26-f320cd275045.jpg?v=1695374785750"
+        ],
+        "type": "Bottle",
+        "gender": "Unisex",
+        "variant": [
+        ],
+        "combinations": [
+            { "price": "3890000", "comparePrice": "4100000", "quantity": 5, "sku": "G-35" }
+        ]
+    }
+  ]

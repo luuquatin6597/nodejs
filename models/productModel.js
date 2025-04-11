@@ -1,22 +1,25 @@
-const db = require("../config/database");
+const mongoose = require('mongoose');
 
-const Product = {
-  getAllProducts: (callback) => {
-    db.query("SELECT * FROM products", (err, results) => {
-      if (err) return callback(err);
-      return callback(null, results);
-    });
-  },
-  createProduct: (productData, callback) => {
-    db.query(
-      "INSERT INTO products (name, price, description) VALUES (?, ?, ?)",
-      [productData.name, productData.price, productData.description],
-      (err, results) => {
-        if (err) return callback(err);
-        return callback(null, results);
-      }
-    );
-  },
-};
+const productSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: [true, 'Product name is required'],
+        trim: true
+    },
+    price: {
+        type: Number,
+        required: [true, 'Product price is required'],
+        min: [0, 'Price must be a positive number']
+    },
+    description: {
+        type: String,
+        required: [true, 'Product description is required'],
+        trim: true
+    }
+}, {
+    timestamps: true
+});
+
+const Product = mongoose.model('Product', productSchema);
 
 module.exports = Product;

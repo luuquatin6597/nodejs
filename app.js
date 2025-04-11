@@ -2,7 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');									
 const app = express();									
 const productRoutes = require('./routes/productRoutes');									
+const connectDB = require('./config/database');									
 //const productsRouter = require('./routes/products');									
+									
+// Connect to MongoDB
+connectDB();
 									
 // Thiết lập EJS làm template engine									
 app.set('view engine', 'ejs');									

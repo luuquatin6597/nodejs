@@ -1,15 +1,16 @@
-const mysql = require('mysql2');							
-							
-const connection = mysql.createConnection({							
-host: 'localhost',							
-user: 'root',							
-password: '',							
-database: 'btvn'							
-});							
-							
-connection.connect((err) => {							
-if (err) throw err;							
-console.log('Connected to MySQL Database!');							
-});							
-							
-module.exports = connection;
+const mongoose = require('mongoose');
+
+const connectDB = async () => {
+    try {
+        await mongoose.connect('mongodb://localhost:27017/btvn', {
+            useNewUrlParser: true,
+            useUnifiedTopology: true
+        });
+        console.log('MongoDB connected successfully');
+    } catch (error) {
+        console.error('MongoDB connection error:', error);
+        process.exit(1);
+    }
+};
+
+module.exports = connectDB;

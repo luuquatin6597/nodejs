@@ -1,0 +1,21 @@
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles
+.container {
+    margin-top: 2rem;
+}
+
+.table {
+    margin-top: 1rem;
+}
+
+// Add Product form specific styles
+.add-product-container {
+    max-width: 600px;
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+} 

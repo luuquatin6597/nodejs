@@ -1,0 +1,101 @@
+<tr>
+    <td class="cart-pic <%= isFirst ? 'first-row' : '' %>">
+        <img src="/img/cart-page/<%= item.image %>" alt="">
+    </td>
+    <td class="cart-title <%= isFirst ? 'first-row' : '' %>">
+        <h5><%= item.name %></h5>
+    </td>
+    <td class="p-price <%= isFirst ? 'first-row' : '' %>">$<%= item.price %>.00</td>
+    <td class="qua-col <%= isFirst ? 'first-row' : '' %>">
+        <div class="quantity">
+            <div class="pro-qty">
+                <input type="text" value="<%= item.quantity %>" data-id="<%= item.id %>" class="quantity-input">
+            </div>
+        </div>
+    </td>
+    <td class="total-price <%= isFirst ? 'first-row' : '' %>">$<%= item.price * item.quantity %>.00</td>
+    <td class="close-td <%= isFirst ? 'first-row' : '' %>">
+        <i class="ti-close remove-item" data-id="<%= item.id %>"></i>
+    </td>
+    <td class="close-td <%= isFirst ? 'first-row' : '' %>">
+        <i class="ti-save update-item" data-id="<%= item.id %>"></i>
+    </td>
+</tr>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Xử lý cập nhật số lượng
+    const updateButtons = document.querySelectorAll('.update-item');
+    updateButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const id = this.dataset.id;
+            const quantityInput = document.querySelector(`.quantity-input[data-id="${id}"]`);
+            const quantity = quantityInput.value;
+            
+            fetch('/api/cart/update', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id, quantity })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Reload trang để cập nhật tổng tiền
+                    window.location.reload();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to update quantity');
+            });
+        });
+    });
+    
+    // Xử lý xóa sản phẩm
+    const removeButtons = document.querySelectorAll('.remove-item');
+    removeButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const id = this.dataset.id;
+            
+            fetch('/api/cart/remove', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Xóa hàng chứa sản phẩm
+                    const row = this.closest('tr');
+                    row.remove();
+                    
+                    // Cập nhật tổng tiền
+                    updateTotal();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to remove item');
+            });
+        });
+    });
+    
+    // Hàm cập nhật tổng tiền
+    function updateTotal() {
+        const totalElements = document.querySelectorAll('.total-price');
+        let subtotal = 0;
+        
+        totalElements.forEach(element => {
+            const price = parseFloat(element.textContent.replace('$', ''));
+            subtotal += price;
+        });
+        
+        document.querySelector('.subtotal span').textContent = `$${subtotal.toFixed(2)}`;
+        document.querySelector('.cart-total span').textContent = `$${subtotal.toFixed(2)}`;
+    }
+});
+</script> 
